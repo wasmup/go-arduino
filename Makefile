@@ -1,5 +1,5 @@
 all:
-	tinygo build -target=arduino -o main main.go
+	tinygo build -target=arduino -o main -no-debug main.go
 	ls -l main
 	file main
 
